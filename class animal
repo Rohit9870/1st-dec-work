@@ -1,0 +1,42 @@
+package classes;
+class animal{
+	
+	String name;
+	String color;
+	
+	
+	void display() {
+		System.out.println("Animal Name : "+name +" and color : "+color);
+	}
+}
+
+public class classes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		animal a1 = new animal();
+		animal a2 = new animal();
+		animal a3 = new animal();
+		animal a4 = new animal();
+		
+		a1.name="cow";
+		a2.name="buffalo";
+		a3.name="camel";
+		a4.name="deer";
+		
+		a1.color = "white";
+		a2.color = "black";
+		a3.color = "Light yellowish brown";
+		a4.color = "red and brown";
+		
+		
+		a1.display();
+		a2.display();
+		a3.display();
+		a4.display();
+		
+		
+
+	}
+
+}
